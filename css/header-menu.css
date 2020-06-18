@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  height: 100%; }
+
+header {
+  height: 46.1em;
+  width: 100%;
+  background-color: #6DCCAA; }
+header nav {
+  /*background-color: darken($color: #6DCCAA, $amount: 20%);*/
+  height: 100px;
+  width: 80%;
+  margin-left: 10%; }
+header nav div.logo-crudo {
+  background-image: url("../img/logo-white.svg");
+  /*background-repeat: no-repeat;*/
+  position: relative;
+  top: 30px;
+  left: 26px;
+  width: 103px;
+  height: 40px; }
+header nav ul {
+  list-style: none;
+  margin: 0 auto;
+  float: right;
+  position: relative;
+  right: 7px;
+  /*right: 11em;*/
+  top: -40px; }
+header nav ul li {
+  display: inline-block; }
+header nav ul li a {
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 100px;
+  color: white;
+  text-decoration: none solid black;
+  padding: 0 20px 0 0;
+  font-family: 'Montserrat', sans-serif; }
+header nav ul li a:hover, header nav ul li a:focus {
+  color: #404040; }
+
+/*# sourceMappingURL=header-menu.css.map */
